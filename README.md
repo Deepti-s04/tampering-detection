@@ -1,2 +1,3 @@
-# tampering-detection
-Deep learning model for detecting tampered images using a CNN
+
+This project uses Convolutional Neural Networks (CNN) to detect image tampering by classifying images into tampered and non-tampered categories. The MICC-F220 dataset is used, with images labeled based on the presence of "tamp" in their filenames. The images are resized to 32x32 pixels for uniformity, and the model consists of two convolutional layers followed by two fully connected layers, with ReLU activation functions and a softmax output for classification. The model is trained using Stochastic Gradient Descent (SGD) with a learning rate of 0.001 and momentum of 0.9. After training, the model is tested on a separate dataset, and the accuracy is calculated. To run the project, necessary libraries like torch, torchvision, and pandas need to be installed, and the dataset should be correctly placed or linked.
+
